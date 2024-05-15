@@ -12,7 +12,7 @@ for line in iFile:
             result += line[i]
         else:
             i += 2
-        oFile.write(result)
 	i += 1
+    oFile.write(result)
 
 oFile.close()
